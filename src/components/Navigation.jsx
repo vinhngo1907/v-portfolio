@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 
 export default function Navigation() {
 
@@ -6,7 +6,9 @@ export default function Navigation() {
 
     return (
         <nav id={"navigation"} className={"flex w-full h-[100px] px-8 md:px-14 items-center justify-between"}>
-            <a href={"/"} aria-label="Home" className={"z-[100] text-4xl cursor-pointer accent fab fa-typo3"}></a>
+            <a href={"/"} aria-label="Home" className={"z-[100] text-4xl cursor-pointer accent"}>
+                <i className="fab fa-typo3"></i>
+            </a>
             <a href={"/CV-NgoTrungVinh.pdf"} className={"md:hidden w-fit w-full hover-btn cursor-pointer text-[14px] hover-accent font-monospace p-4 px-6 ml-auto mr-2"}>
                 Resume
             </a>
