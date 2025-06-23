@@ -11,7 +11,7 @@ export default function Experience() {
                 `Built a scalable distributed crawler system using microservices, RabbitMQ for communication, and AWS Lambda for event-driven processing. Stored data in MySQL and indexed with Elasticsearch. Deployed services with Docker and Docker Compose.`,
                 `Extracted and preprocessed data from Excel, CSV, and images (OCR) to support training of machine learning models for language translation (Vietnamese to English).`,
                 `Developed a real-time data synchronization module for MySQL, PostgreSQL, MongoDB, and MSSQL using Kafka and Debezium for Change Data Capture (CDC).`,
-                `Technologies: NodeJS, .NET, Python, RabbitMQ, Kafka, Debezium, MySQL, PostgreSQL, MongoDB, MSSQL, Elasticsearch, Docker, AWS, MinIO, Jira, Bitbucket.`
+                `Use: NodeJS, .NET, Python, RabbitMQ, Kafka, Debezium, MySQL, PostgreSQL, MongoDB, MSSQL, Elasticsearch, Docker, AWS, MinIO, Jira, Bitbucket.`
             ]
         },
         "TekNix Technology Corporation": {
@@ -19,12 +19,12 @@ export default function Experience() {
             position: "Backend Developer",
             duration: "Sep 2022 - Jun 2023",
             content: [
-                `Built a real-time socket server (NestJS, Socket.IO, MongoDB, Prisma) to communicate with Android TV Boxes (FlutterFlow app) and execute scheduled media (video, audio, TTS) playback."- Use: NestJS, Socket.IO, Node.js, Prisma, MongoDB, PostgreSQL, Strapi CMS, AWS S3, Elasticsearch, Docker, Grafana, GitHub, Jira.`,
+                `Built a real-time socket server (NestJS, Socket.IO, MongoDB, Prisma) to communicate with Android TV Boxes (FlutterFlow app) and execute scheduled media (video, audio, TTS) playback.`,
                 "Integrated with Strapi CMS APIs (PostgreSQL, Prisma) to manage users, media uploads (AWS S3), TTS content, schedules, and location data (provinces, districts, communes).",
                 "The socket server consumed data from Strapi to send real-time commands to TV Boxes, ensuring accurate content delivery based on user-defined schedules.",
                 "Created cron jobs to log blockchain transactions into Elasticsearch (Docker) and visualize logs using Grafana.",
                 "Containerized services with Docker, used GitHub for version control, and managed tasks via Jira.",
-                "Use: NestJS, Socket.IO, Node.js, Prisma, MongoDB, PostgreSQL, Strapi CMS, AWS S3, Elasticsearch, Docker, Grafana, GitHub, Jira."
+                "Use: NestJS, Socket.IO, NodeJS, Prisma, MongoDB, PostgreSQL, Strapi CMS, AWS S3, Elasticsearch, Docker, Grafana, GitHub, Jira."
             ]
         },
         "Hau Giang Agricultural Solutions": {
@@ -137,7 +137,7 @@ export default function Experience() {
                         }
                     </div>
                 </div>
-                <div className={"flex items-center justify-center w-full pt-28 pb-8"}>
+                {/* <div className={"flex items-center justify-center w-full pt-28 pb-8"}>
                     <h3 className={"text-2xl slate font-[600]"}>Certifications</h3>
                 </div>
                 <ul className={"flex w-full flex-col text-md slate font-monospace cert-list"}>
@@ -153,7 +153,7 @@ export default function Experience() {
                             </li>
                         })
                     }
-                </ul>
+                </ul> */}
             </div>
         </>
     )

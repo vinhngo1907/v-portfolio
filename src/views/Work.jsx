@@ -67,19 +67,21 @@ export default function Work() {
                         title={"Course Manager"}
                         description={"V-Course system which allows you manage your courses"}
                         links={{"fab fa-github": "https://github.com/vinhngo1907/v-course-manager"}}
-                        tags={["Nextjs", "Nestjs", "Postgres", "MinIO", "Prisma"]}
+                        tags={["Next", "Nest", "Postgres", "MinIO", "Prisma"]}
                     />
                     <Project
-                        title={"Cursor - V cusor application"}
+                        title={"V Cursor Application"}
                         description={"A small chat system based on a microservices architecture"}
                         links={{"fab fa-github": "https://github.com/vinhngo1907/v-cursor"}}
-                        tags={["Vue", "NestJS", "MongoDB", "Kafka", "Python"]}
+                        tags={["Vue", "Nest", "Mongo", "Kafka", "Python"]}
                     />
                     <Project
-                        title={"Apple Airpods Website Clone"}
-                        description={"An attempt to clone Apple's airpods animation by applying lottie animation on a custom a 3D phone model."}
-                        links={{"fab fa-github": "https://github.com/vinhngo1907/lottie-animation", "fas fa-external-link": "https://vinhngo1907.github.io/lottie-animation"}}
-                        tags={["Lottie Animation", "Javascript", "CSS"]}
+                        title={"InShare Application"}
+                        description={
+                            "An app for uploading and sharing files via unique download links."
+                        }
+                        links={{"fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app", "fas fa-external-link": "https://vinhngo1907.github.io/lottie-animation"}}
+                        tags={["Vue", "NodeJS", "Sequelize"]}
                     />
                 </div>
             </div>
