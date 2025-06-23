@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Experience() {
 
-    const [work, setWork] = useState({
+    const [work] = useState({
         "LizAI Technology Corporation": {
             url: "https://www.lizai.co/",
             position: "Software Engineer",
@@ -52,38 +52,38 @@ export default function Experience() {
         }
     })
 
-    const [certifications, setCertifications] = useState({
-        "Automating Real-World Tasks with Python": {
-            url: "https://coursera.org/share/3d778b5a6dd8449da384fdd30f99a296",
-            provider: "Google & Coursera",
-            font: "google"
-        },
-        "From Data to Insights with Google Cloud": {
-            url: "https://www.coursera.org/account/accomplishments/specialization/LHTMWADX74T6",
-            provider: "Google & Coursera",
-            font: "google"
-        },
-        "Data Analysis with Python": {
-            url: "https://www.freecodecamp.org/certification/vinhngo1907/data-analysis-with-python-v7",
-            provider: "FreeCodeCamp",
-            font: "free-code-camp"
-        },
-        "Scientific Computing with Python": {
-            url: "https://www.freecodecamp.org/certification/vinhngo1907/scientific-computing-with-python-v7",
-            provider: "FreeCodeCamp",
-            font: "free-code-camp"
-        },
-        "JavaScript Algorithms and Data Structures": {
-            url: "https://www.freecodecamp.org/certification/vinhngo1907/javascript-algorithms-and-data-structures",
-            provider: "FreeCodeCamp",
-            font: "free-code-camp"
-        },
-        "Responsive Web Design": {
-            url: "https://www.freecodecamp.org/certification/vinhngo1907/responsive-web-design",
-            provider: "FreeCodeCamp",
-            font: "free-code-camp"
-        }
-    })
+    // const [certifications, setCertifications] = useState({
+    //     "Automating Real-World Tasks with Python": {
+    //         url: "https://coursera.org/share/3d778b5a6dd8449da384fdd30f99a296",
+    //         provider: "Google & Coursera",
+    //         font: "google"
+    //     },
+    //     "From Data to Insights with Google Cloud": {
+    //         url: "https://www.coursera.org/account/accomplishments/specialization/LHTMWADX74T6",
+    //         provider: "Google & Coursera",
+    //         font: "google"
+    //     },
+    //     "Data Analysis with Python": {
+    //         url: "https://www.freecodecamp.org/certification/vinhngo1907/data-analysis-with-python-v7",
+    //         provider: "FreeCodeCamp",
+    //         font: "free-code-camp"
+    //     },
+    //     "Scientific Computing with Python": {
+    //         url: "https://www.freecodecamp.org/certification/vinhngo1907/scientific-computing-with-python-v7",
+    //         provider: "FreeCodeCamp",
+    //         font: "free-code-camp"
+    //     },
+    //     "JavaScript Algorithms and Data Structures": {
+    //         url: "https://www.freecodecamp.org/certification/vinhngo1907/javascript-algorithms-and-data-structures",
+    //         provider: "FreeCodeCamp",
+    //         font: "free-code-camp"
+    //     },
+    //     "Responsive Web Design": {
+    //         url: "https://www.freecodecamp.org/certification/vinhngo1907/responsive-web-design",
+    //         provider: "FreeCodeCamp",
+    //         font: "free-code-camp"
+    //     }
+    // })
 
     const [activeTab, setActiveTab] = useState(0);
 
@@ -106,7 +106,7 @@ export default function Experience() {
                     <a href={"https://nodejs.org/en"} target={"_blank"}  rel="noreferrer"> Node.js</a> in JavaScript,
                     along with frontend libraries like React. I’ve worked with RESTful APIs, containerization tools like Docker,
                     and deployed applications using
-                    <a href={"https://cloud.google.com/"} target={"_blank"}> Google Cloud</a>.
+                    <a href={"https://cloud.google.com/"} target={"_blank"} rel="noopener noreferrer"> Google Cloud</a>.
                 </p>
 
                 <div className={"flex flex-col md:flex-row w-full mt-12"}>

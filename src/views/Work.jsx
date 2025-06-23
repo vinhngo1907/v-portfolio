@@ -7,7 +7,7 @@ import {useState} from "react";
 
 export default function Work() {
 
-    const [projects, setProjects] = useState([
+    const [projects] = useState([
         {
             name: "V Network",
             description: `An interactive social media web application designed to connect users through real-time communication and engaging content. The platform allows users to sign in via basic login or OAuth2 (Facebook, Google, SMS), create and share posts, react with likes, comments, and emojis, and communicate via real-time chat, voice, and video calls. With features like user search, notifications, group chats, 24-hour stories, nearby people, and boosted posts for advertisements, the app offers a comprehensive and modern social media experience.`,

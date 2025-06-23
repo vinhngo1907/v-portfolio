@@ -103,7 +103,8 @@ i, a {
   padding-left: 20px;
   position: relative;
   display: flex;
-  align-items: start;
+  /* align-items: start; */
+  justify-content: flex-start;
 }
 .bullet-list > li:before {
   content: "▹";
