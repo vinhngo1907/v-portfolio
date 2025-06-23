@@ -7,7 +7,7 @@ export default function Contact() {
                 Hi! I'm currently looking for new opportunities, so feel free to contact.
                 Whether you have a question or just want to say hi, I’ll try my best to get back to you!
             </p>
-            <a href={"mailto:ishwarjagdale50@gmail.com"} className={"w-full md:w-fit accent hover-btn accent-border border p-4 px-8 text-md font-monospace rounded"}>
+            <a href={"mailto:vinhtrungngo1907@gmail.com"} className={"w-full md:w-fit accent hover-btn accent-border border p-4 px-8 text-md font-monospace rounded"}>
                 Say Hello
             </a>
         </div>

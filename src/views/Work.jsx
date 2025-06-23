@@ -1,6 +1,6 @@
-import SysMon from "../images/projects/dashboard.png"
-import SmartScan from "../images/projects/SmartScan.png"
-import Journal from "../images/projects/journal.png"
+import VNetwork from "../images/projects/VNetwork.png"
+import MusicStream from "../images/projects/MusicStream.png"
+import VchatApp from "../images/projects/VchatApp.png"
 import FeaturedProject from "../components/FeaturedProjects";
 import Project from "../components/Projects";
 import {useState} from "react";
@@ -9,25 +9,32 @@ export default function Work() {
 
     const [projects, setProjects] = useState([
         {
-            name: "Smart Scan",
-            description: "A web application which shows authentic history of monuments gathered from government officials. The history is provided in 26 international languages with audios. The tourists are supposed to scan the QR code present at the monuments which will take them to a specific page made for that particular monument. This application was made for the tourism of Aurangabad city in Maharashtra with the help of Smart City Aurangabad.",
-            tags: ["Python-Flask", "React", "Tailwind"],
-            links: {"fab fa-github": "https://github.com/ishwarjagdale/G20-scapp", "fas fa-external-link": "https://proto-scapp.pages.dev/"},
-            image: SmartScan
+            name: "V Network",
+            description: `An interactive social media web application designed to connect users through real-time communication and engaging content. The platform allows users to sign in via basic login or OAuth2 (Facebook, Google, SMS), create and share posts, react with likes, comments, and emojis, and communicate via real-time chat, voice, and video calls. With features like user search, notifications, group chats, 24-hour stories, nearby people, and boosted posts for advertisements, the app offers a comprehensive and modern social media experience.`,
+            tags: ["NodeJS", "Express", "MongoDB", "React", "Bootstrap"],
+            links: {
+                "fab fa-github": "https://github.com/vinhngo1907/mern-v-social-media", 
+                "fas fa-external-link": "#"
+            },
+            image: VNetwork
         },
         {
-            name: "SysMon - System Monitoring Tool",
-            description: "A system monitoring tool which works in a network or over internet. It looks over available system resources' performance, generate logs and alerts user on any abnormality.",
-            tags: ["Python-Flask", "React", "Tailwind", "Sockets"],
-            links: {"fab fa-github": "https://github.com/ishwarjagdale/sys.mon", "fas fa-external-link": "https://sys-mon.pages.dev/"},
-            image: SysMon
+            name: "V Music Stream – Listen & Chill",
+            description: "A web application designed for streaming and managing music seamlessly. Users can browse, play, and organize their favorite tracks with an intuitive interface. The platform supports real-time playback, playlist management, audio uploads, and user interaction features such as likes and dislikes. Built with scalability and user experience in mind, V Music Stream offers a responsive design and smooth audio streaming for both desktop and mobile users.",  
+            tags: ["NodeJS", "Express","HTML", "Javascript", "CSS", "Mongo"],
+            links: {
+                "fab fa-github": "https://github.com/vinhngo1907/v-music-stream", 
+                "fas fa-external-link": "https://v-music-stream.onrender.com"
+            },
+            image: MusicStream
         },
         {
-            name: "Journal - Medium Clone",
-            description: "This is a simple clone of medium.com created using ReactJS, TailwindCSS, Flask-Python (Backend), Google Photos API",
-            tags: ["React", "Python", "Postgres", "Google Cloud"],
-            links: {"fab fa-github": "https://github.com/ishwarjagdale/journal"},
-            image: Journal
+            name: "Chat  - Realtime chat app",
+            description: "A real-time chat application built with the MERN stack (MongoDB, Express, React, Node.js) with potential features such as private messaging, group chat, and presence indicators.",
+            tags: ["React", "NodeJS", "Cloud Dinary", "Bootstrap", "Mongo"],
+            links: {"fab fa-github": "https://github.com/vinhngo1907/mern-v-chat-app",
+            "fas fa-external-link": "https://mern-v-chat-app.netlify.app/"},
+            image: VchatApp
         }
     ])
 
@@ -53,25 +60,25 @@ export default function Work() {
             <div className={"flex flex-col items-center max-w-[1000px] pb-32 w-full"}>
                 <div className={"flex flex-col items-center justify-center w-full pb-16"}>
                     <h3 className={"text-2xl slate mb-[10px] font-[600]"}>Other Noteworthy Projects</h3>
-                    <a href={"https://github.com/ishwarjagdale"} className={"accent text-sm font-monospace"}>view the archive</a>
+                    <a href={"https://github.com/vinhngo1907"} className={"accent text-sm font-monospace"}>view the archive</a>
                 </div>
                 <div className={"grid md:grid-cols-3 gap-4 w-full"}>
                     <Project
-                        title={"SysMon's Backend Server"}
-                        description={"SysMon applications backend server made with Python. "}
-                        links={{"fab fa-github": "https://github.com/ishwarjagdale/sys.mon"}}
-                        tags={["Python-Flask", "Threading", "Postgres", "Sockets", "REST"]}
+                        title={"Course Manager"}
+                        description={"V-Course system which allows you manage your courses"}
+                        links={{"fab fa-github": "https://github.com/vinhngo1907/v-course-manager"}}
+                        tags={["Nextjs", "Nestjs", "Postgres", "MinIO", "Prisma"]}
                     />
                     <Project
-                        title={"Docket - Cloud based note application"}
-                        description={"A simple & secure note taking application with ExpressJS backend connected with Postgres SQL."}
-                        links={{"fab fa-github": "https://github.com/ishwarjagdale/docket"}}
-                        tags={["React", "Express", "Postgres"]}
+                        title={"Cursor - V cusor application"}
+                        description={"A small chat system based on a microservices architecture"}
+                        links={{"fab fa-github": "https://github.com/vinhngo1907/v-cursor"}}
+                        tags={["Vue", "NestJS", "MongoDB", "Kafka", "Python"]}
                     />
                     <Project
                         title={"Apple Airpods Website Clone"}
                         description={"An attempt to clone Apple's airpods animation by applying lottie animation on a custom a 3D phone model."}
-                        links={{"fab fa-github": "https://github.com/ishwarjagdale/lottie-animation", "fas fa-external-link": "https://ishwarjagdale.github.io/lottie-animation"}}
+                        links={{"fab fa-github": "https://github.com/vinhngo1907/lottie-animation", "fas fa-external-link": "https://vinhngo1907.github.io/lottie-animation"}}
                         tags={["Lottie Animation", "Javascript", "CSS"]}
                     />
                 </div>
