@@ -22,7 +22,9 @@ export default function FeaturedProject({image, title, description, tags, links,
                     {
                         Object.keys(links).map((l, i) => {
                             // eslint-disable-next-line jsx-a11y/anchor-has-content
-                            return <a key={i} target={"_blank"} href={links[l]} className={`hover-accent mr-6 ${l} ${i === (!orientation ? 0 : Object.keys(links).length - 1) ? "md:mr-0" : "md:mx-6"}`}/>
+                            return <a key={i} target={"_blank"} href={links[l]}  rel="noreferrer"
+                            className={`hover-accent mr-6 ${l} ${i === (!orientation ? 0 : Object.keys(links).length - 1) ? "md:mr-0" : "md:mx-6"}`}
+                            />
                         })
                     }
                 </div>

@@ -102,8 +102,8 @@ export default function Experience() {
                 </p>
                 <p className={"dark-slate w-full mb-4 leading-7"}>
                     I've built full stack web applications using a variety of frameworks such as
-                    <a href={"https://expressjs.com/"} target={"_blank"}> Express.js</a> and
-                    <a href={"https://nodejs.org/en"} target={"_blank"}> Node.js</a> in JavaScript,
+                    <a href={"https://expressjs.com/"} target={"_blank"}  rel="noreferrer"> Express.js</a> and
+                    <a href={"https://nodejs.org/en"} target={"_blank"}  rel="noreferrer"> Node.js</a> in JavaScript,
                     along with frontend libraries like React. I’ve worked with RESTful APIs, containerization tools like Docker,
                     and deployed applications using
                     <a href={"https://cloud.google.com/"} target={"_blank"}> Google Cloud</a>.
