@@ -80,7 +80,7 @@ export default function Work() {
                         description={
                             "An app for uploading and sharing files via unique download links."
                         }
-                        links={{"fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app", "fas fa-external-link": "https://vinhngo1907.github.io/lottie-animation"}}
+                        links={{"fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app", "fas fa-external-link": "#"}}
                         tags={["Vue", "NodeJS", "Sequelize"]}
                     />
                 </div>
