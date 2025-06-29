@@ -32,14 +32,14 @@ export default function Experience() {
             position: "Backend Developer",
             duration: "Mar - Aug 2022",
             content: [
-                "Developed scalable backend services using Node.js and Express to support a smart farming platform, enabling automation and remote control of environmental conditions.",
+                "Developed scalable backend services using NodeJS and Express to support a smart farming platform, enabling automation and remote control of environmental conditions.",
                 "Integrated MQTT protocol for real-time communication between IoT devices and the backend system, collecting and controlling data related to temperature, humidity, and lighting.",
                 "Collaborated with the frontend team to implement key features such as authentication, search, filtering, and pagination, enhancing the usability of the dashboard.",
                 "Designed and managed data storage using MongoDB for efficient retrieval and scalability.",
-                "Use: Node.JS, Express, MongoDB, MQTT, ReactJS, GitLab."
+                "Use: NodeJS, Express, MongoDB, MQTT, React, GitLab."
             ]
         },
-        "MaySoft Can Tho": {
+        "Maysoft Technology Solutions": {
             url: "https://maysoft.io/",
             position: "Intership",
             duration: "Jun - Oct 2021",
@@ -47,7 +47,7 @@ export default function Experience() {
                 "Researched APIs and worked with databases.",
                 "Developed and fixed frontend features.",
                 "Learned tools for source code management (e.g., Git).",
-                "Use: NodeJS, Express, ReactJS, React Native and Git."
+                "Use: NodeJS, ExpressJS, ReactJS, React Native and Git."
             ]
         }
     })
@@ -102,12 +102,12 @@ export default function Experience() {
                 </p>
                 <p className={"dark-slate w-full mb-4 leading-7"}>
                     I've built full stack web applications using a variety of frameworks such as
-                    <a href={"https://expressjs.com/"} target={"_blank"}  rel="noreferrer"> Express.js</a> and
-                    <a href={"https://nodejs.org/en"} target={"_blank"}  rel="noreferrer"> Node.js</a> in JavaScript,
+                    <a href={"https://expressjs.com/"} target={"_blank"} rel="noreferrer"> ExpressJS</a> and
+                    <a href={"https://nodejs.org/en"} target={"_blank"} rel="noreferrer"> NodeJS</a> in JavaScript,
                     along with frontend libraries like React. I’ve worked with RESTful APIs, containerization tools like Docker,
-                    and deployed applications using
-                    <a href={"https://cloud.google.com/"} target={"_blank"} rel="noopener noreferrer"> Google Cloud</a>.
+                    and integrated Google services like OAuth login, YouTube Analytics, and Gmail API.
                 </p>
+
 
                 <div className={"flex flex-col md:flex-row w-full mt-12"}>
                     <ul className={"flex md:flex-col text-sm slate-alt overflow-x-scroll font-monospace mr-6 work-list mb-8 md:mb-0"}>

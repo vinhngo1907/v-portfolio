@@ -9,9 +9,9 @@ export default function Work() {
 
     const [projects] = useState([
         {
-            name: "V Network",
+            name: "V Network - Social Media",
             description: `An interactive social media web application designed to connect users through real-time communication and engaging content. The platform allows users to sign in via basic login or OAuth2 (Facebook, Google, SMS), create and share posts, react with likes, comments, and emojis, and communicate via real-time chat, voice, and video calls. With features like user search, notifications, group chats, 24-hour stories, nearby people, and boosted posts for advertisements, the app offers a comprehensive and modern social media experience.`,
-            tags: ["NodeJS", "Express", "MongoDB", "React", "Bootstrap"],
+            tags: ["NodeJS", "Express", "Mongo", "React", "Bootstrap"],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/mern-v-social-media", 
                 "fas fa-external-link": "#"
@@ -19,7 +19,7 @@ export default function Work() {
             image: VNetwork
         },
         {
-            name: "V Music Stream – Listen & Chill",
+            name: "V Music – Listen & Chill",
             description: "A web application designed for streaming and managing music seamlessly. Users can browse, play, and organize their favorite tracks with an intuitive interface. The platform supports real-time playback, playlist management, audio uploads, and user interaction features such as likes and dislikes. Built with scalability and user experience in mind, V Music Stream offers a responsive design and smooth audio streaming for both desktop and mobile users.",  
             tags: ["NodeJS", "Express","HTML", "Javascript", "CSS", "Mongo"],
             links: {
@@ -29,9 +29,9 @@ export default function Work() {
             image: MusicStream
         },
         {
-            name: "Chat  - Realtime chat app",
-            description: "A real-time chat application built with the MERN stack (MongoDB, Express, React, Node.js) with potential features such as private messaging, group chat, and presence indicators.",
-            tags: ["React", "NodeJS", "Cloud Dinary", "Bootstrap", "Mongo"],
+            name: "V Talk - Realtime chat",
+            description: "a real-time communication platform that supports private conversations, call functionalities (audio/video), and presence tracking, ensuring users can seamlessly connect and see each other’s availability in real time.",
+            tags: ["React", "NodeJS", "Cloudinary", "Mongo", "Socket.io", "Redis"],
             links: {"fab fa-github": "https://github.com/vinhngo1907/mern-v-chat-app",
             "fas fa-external-link": "https://mern-v-chat-app.netlify.app/"},
             image: VchatApp
@@ -81,7 +81,7 @@ export default function Work() {
                             "An app for uploading and sharing files via unique download links."
                         }
                         links={{"fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app", "fas fa-external-link": "#"}}
-                        tags={["Vue", "NodeJS", "Sequelize"]}
+                        tags={["Vue", "NodeJS", "Sequelize", "MySQL"]}
                     />
                 </div>
             </div>

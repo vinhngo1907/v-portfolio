@@ -63,6 +63,7 @@ i, a {
 .p-img {
   filter: blur(4px) brightness(50%);
 }
+
 .hover-btn:hover {
   background: rgba(100,255,218,0.1);
 }
