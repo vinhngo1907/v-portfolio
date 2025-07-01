@@ -35,7 +35,7 @@ export default function Work() {
         {
             name: "Hasu Farm",
             description: "HASU Farm is a smart agriculture platform that monitors and manages IoT farm data such as temperature, humidity, and lighting in real time. The system collects sensor data, processes it through a scalable backend, and provides farmers with an intuitive dashboard for tracking and controlling their farm environment efficiently.",
-            tags: ["React", "NodeJS", "Mongo", "MQTT"],
+            tags: ["NodeJS", "Mongo", "MQTT", "React"],
             links: {"fab fa-github": "#",
             "fas fa-external-link": "http://hasufarm.com"},
             image: HasuFarm
@@ -43,7 +43,7 @@ export default function Work() {
         {
             name: "FM - CMS",
             description: "This website enables remote control of local speakers. It also provides customers with user access management and allows them to easily monitor and manage connected devices in real time across different areas.",
-            tags: ["Next", "Nest","Mongo", "Socket.io", "PosgreSQL", "Prisma"],
+            tags: ["Nest","Mongo", "Socket.io", "PosgreSQL", "Next", "Prisma", "Strapi"],
             links: {"fab fa-github": "#","fas fa-external-link": "https://dev-fe.hoangthelongtto.vn/"},
             image: FmCMS
         },
@@ -89,6 +89,15 @@ export default function Work() {
                     <a href={"https://github.com/vinhngo1907"} className={"accent text-sm font-monospace"}>view the archive</a>
                 </div>
                 <div className={"grid md:grid-cols-3 gap-4 w-full"}>
+                    <Project
+                        title={" Hoang Long OHayO"}
+                        description={" A Booking system for hotel, coffee, restaurant, and conference."}
+                        links={{
+                            "fab fa-github": "#", 
+                            "fas fa-external-link": "https://hoanglonghotel.com/"
+                        }}
+                        tags={["Strapi",  "Postgres", "Prisma", "FullterFlow", "Next"]}
+                    />
                     <Project
                         title={"Chat Application"}
                         description={"A real-time platform for private chat, calls, and live presence."}
