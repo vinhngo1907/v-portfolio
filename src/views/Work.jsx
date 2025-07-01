@@ -1,6 +1,10 @@
 import VNetwork from "../images/projects/VNetwork.png"
 import MusicStream from "../images/projects/MusicStream.png"
-import VchatApp from "../images/projects/VchatApp.png"
+// import VchatApp from "../images/projects/VchatApp.png"
+import HasuFarm from "../images/projects/HasuFarm.png"
+import FmCMS from "../images/projects/FMCMS.png"
+import XKA from "../images/projects/XKA.png";
+import NguyenVuStore from "../images/projects/NguyenVu.png";
 import FeaturedProject from "../components/FeaturedProjects";
 import Project from "../components/Projects";
 import {useState} from "react";
@@ -29,12 +33,33 @@ export default function Work() {
             image: MusicStream
         },
         {
-            name: "V Talk - Realtime chat",
-            description: "a real-time communication platform that supports private conversations, call functionalities (audio/video), and presence tracking, ensuring users can seamlessly connect and see each other’s availability in real time.",
-            tags: ["React", "NodeJS", "Cloudinary", "Mongo", "Socket.io", "Redis"],
-            links: {"fab fa-github": "https://github.com/vinhngo1907/mern-v-chat-app",
-            "fas fa-external-link": "https://mern-v-chat-app.netlify.app/"},
-            image: VchatApp
+            name: "Hasu Farm",
+            description: "HASU Farm is a smart agriculture platform that monitors and manages IoT farm data such as temperature, humidity, and lighting in real time. The system collects sensor data, processes it through a scalable backend, and provides farmers with an intuitive dashboard for tracking and controlling their farm environment efficiently.",
+            tags: ["React", "NodeJS", "Mongo", "MQTT"],
+            links: {"fab fa-github": "#",
+            "fas fa-external-link": "http://hasufarm.com"},
+            image: HasuFarm
+        },
+        {
+            name: "FM - CMS",
+            description: "This website enables remote control of local speakers. It also provides customers with user access management and allows them to easily monitor and manage connected devices in real time across different areas.",
+            tags: ["Next", "Nest","Mongo", "Socket.io", "PosgreSQL", "Prisma"],
+            links: {"fab fa-github": "#","fas fa-external-link": "https://dev-fe.hoangthelongtto.vn/"},
+            image: FmCMS
+        },
+        {
+            name: "XKA - ECommerce Website",
+            description: "An e-commerce platform designed to help small and local sports equipment shops easily transition to online business.",
+            tags: ["Wordpress", "Next", "Cloudinary", "MySQL"],
+            links: {"fab fa-github": "#","fas fa-external-link": "https://xka.vn/"},
+            image: XKA
+        },
+        {
+            name: "Nguyen Vu Store",
+            description: "Nguyen Vu Store's e-commerce website for online sales provides all the basic functions of an e-commerce website, including online payment.",
+            tags: ["Wordpress", "Next", "Cloudinary", "MySQL", "Docker", "Traefik"],
+            links: {"fab fa-github": "#","fas fa-external-link": "https://nguyenvu.store"},
+            image: NguyenVuStore
         }
     ])
 
@@ -57,6 +82,7 @@ export default function Work() {
                     })
                 }
             </div>
+
             <div className={"flex flex-col items-center max-w-[1000px] pb-32 w-full"}>
                 <div className={"flex flex-col items-center justify-center w-full pb-16"}>
                     <h3 className={"text-2xl slate mb-[10px] font-[600]"}>Other Noteworthy Projects</h3>
@@ -64,10 +90,19 @@ export default function Work() {
                 </div>
                 <div className={"grid md:grid-cols-3 gap-4 w-full"}>
                     <Project
+                        title={"Chat Application"}
+                        description={"A real-time platform for private chat, calls, and live presence."}
+                        links={{
+                            "fab fa-github": "https://github.com/vinhngo1907/mern-v-chat-app", 
+                            "fas fa-external-link": "https://mern-v-chat-app.netlify.app/"
+                        }}
+                        tags={["React", "NodeJS", "Mongo", "Cloudinary", "Socket.io", "Redis"]}
+                    />
+                    <Project
                         title={"Course Manager"}
                         description={"V-Course system which allows you manage your courses"}
                         links={{"fab fa-github": "https://github.com/vinhngo1907/v-course-manager"}}
-                        tags={["Next", "Nest", "Postgres", "MinIO", "Prisma"]}
+                        tags={["Next", "Nest", "Postgres", "MinIO", "Prisma", "Postgres"]}
                     />
                     <Project
                         title={"V Cursor Application"}
@@ -80,7 +115,7 @@ export default function Work() {
                         description={
                             "An app for uploading and sharing files via unique download links."
                         }
-                        links={{"fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app", "fas fa-external-link": "#"}}
+                        links={{"fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app"}}
                         tags={["Vue", "NodeJS", "Sequelize", "MySQL"]}
                     />
                 </div>
