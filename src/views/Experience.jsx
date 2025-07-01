@@ -28,7 +28,7 @@ export default function Experience() {
             ]
         },
         "Hau Giang Agricultural Solutions": {
-            url: "#",
+            url: "http://hasufarm.com",
             position: "Backend Developer",
             duration: "Mar - Aug 2022",
             content: [
