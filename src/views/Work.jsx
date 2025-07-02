@@ -14,7 +14,7 @@ export default function Work() {
     const [projects] = useState([
         {
             name: "V Network - Social Media",
-            description: `An interactive social media web application designed to connect users through real-time communication and engaging content. The platform allows users to sign in via basic login or OAuth2 (Facebook, Google, SMS), create and share posts, react with likes, comments, and emojis, and communicate via real-time chat, voice, and video calls. With features like user search, notifications, group chats, 24-hour stories, nearby people, and boosted posts for advertisements, the app offers a comprehensive and modern social media experience.`,
+            description: "An interactive social media platform with real-time messaging, voice/video calls, post creation, reactions, user search, notifications, group chats, stories, nearby people, and boosted ads. Supports basic login and OAuth2.",
             tags: ["NodeJS", "Express", "Mongo", "React", "Bootstrap"],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/mern-v-social-media", 
@@ -24,8 +24,8 @@ export default function Work() {
         },
         {
             name: "V Music – Listen & Chill",
-            description: "A web application designed for streaming and managing music seamlessly. Users can browse, play, and organize their favorite tracks with an intuitive interface. The platform supports real-time playback, playlist management, audio uploads, and user interaction features such as likes and dislikes. Built with scalability and user experience in mind, V Music Stream offers a responsive design and smooth audio streaming for both desktop and mobile users.",  
-            tags: ["NodeJS", "Express","HTML", "Javascript", "CSS", "Mongo"],
+            description: "A web application for seamless music streaming and management. Users can browse, play, and organize tracks, manage playlists, and react with likes or dislikes.",  
+            tags: ["NodeJS", "Express","YouTube Data API", "Mongo"],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/v-music-stream", 
                 "fas fa-external-link": "https://v-music-stream.onrender.com"
@@ -35,7 +35,7 @@ export default function Work() {
         {
             name: "Hasu Farm",
             description: "HASU Farm is a smart agriculture platform that monitors and manages IoT farm data such as temperature, humidity, and lighting in real time. The system collects sensor data, processes it through a scalable backend, and provides farmers with an intuitive dashboard for tracking and controlling their farm environment efficiently.",
-            tags: ["NodeJS", "Mongo", "MQTT", "React"],
+            tags: ["NodeJS", "Mongo", "MQTT", "React", "Arduino"],
             links: {"fab fa-github": "#",
             "fas fa-external-link": "http://hasufarm.com"},
             image: HasuFarm
@@ -50,7 +50,7 @@ export default function Work() {
         {
             name: "XKA - ECommerce Website",
             description: "An e-commerce platform designed to help small and local sports equipment shops easily transition to online business.",
-            tags: ["Wordpress", "Next", "Cloudinary", "MySQL"],
+            tags: ["Wordpress", "Next", "Cloudinary", "MySQL", "Docker", "Traefik"],
             links: {"fab fa-github": "#","fas fa-external-link": "https://xka.vn/"},
             image: XKA
         },
@@ -67,7 +67,8 @@ export default function Work() {
         <>
             <div className={"flex flex-col items-center max-w-[1000px] pt-16 pb-32 w-full"}>
                 <div className={"flex items-center w-full header-line pb-16"}>
-                    <span className={"accent mr-4 text-xl font-monospace"}>03.</span><h3 className={"text-2xl whitespace-nowrap slate font-[600]"}>Some Things I've Built</h3>
+                    <span className={"accent mr-4 text-xl font-monospace"}>03.</span>
+                    <h3 className={"text-2xl whitespace-nowrap slate font-[600]"}>Some Things I've Built</h3>
                 </div>
                 {
                     projects.map((p, i) => {
@@ -90,13 +91,13 @@ export default function Work() {
                 </div>
                 <div className={"grid md:grid-cols-3 gap-4 w-full"}>
                     <Project
-                        title={" Hoang Long OHayO"}
-                        description={" A Booking system for hotel, coffee, restaurant, and conference."}
+                        title={" V Note App"}
+                        description={"Take notes and organize them in folders with real-time updates."}
                         links={{
                             "fab fa-github": "#", 
-                            "fas fa-external-link": "https://hoanglonghotel.com/"
+                            "fas fa-external-link": "https://v-note-app.netlify.app"
                         }}
-                        tags={["Strapi",  "Postgres", "Prisma", "FullterFlow", "Next"]}
+                        tags={["Apollo GraphQL",  "NodeJS", "Mongo", "React", "Firebase"]}
                     />
                     <Project
                         title={"Chat Application"}
@@ -105,7 +106,7 @@ export default function Work() {
                             "fab fa-github": "https://github.com/vinhngo1907/mern-v-chat-app", 
                             "fas fa-external-link": "https://mern-v-chat-app.netlify.app/"
                         }}
-                        tags={["React", "NodeJS", "Mongo", "Cloudinary", "Socket.io", "Redis"]}
+                        tags={["React", "NodeJS", "Mongo", "Cloudinary", "Socket", "Redis"]}
                     />
                     <Project
                         title={"Course Manager"}
@@ -126,6 +127,15 @@ export default function Work() {
                         }
                         links={{"fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app"}}
                         tags={["Vue", "NodeJS", "Sequelize", "MySQL"]}
+                    />
+                    <Project
+                        title={" Hoang Long OHayO"}
+                        description={" A Booking system for hotel, coffee, restaurant, and conference."}
+                        links={{
+                            "fab fa-github": "#", 
+                            "fas fa-external-link": "https://hoanglonghotel.com/"
+                        }}
+                        tags={["Strapi",  "Postgres", "Prisma", "FullterFlow", "Next"]}
                     />
                 </div>
             </div>
