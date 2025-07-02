@@ -15,7 +15,7 @@ export default function Work() {
         {
             name: "V Network - Social Media",
             description: "An interactive social media platform with real-time messaging, voice/video calls, post creation, reactions, user search, notifications, group chats, stories, nearby people, and boosted ads. Supports basic login and OAuth2.",
-            tags: ["NodeJS", "Google", "Facebook", "Twilio", "Mongo", "Socket.io", "Redis" ,"React"],
+            tags: ["NodeJS", "Google", "Facebook", "Twilio", "Mongo", "Socket.io", "Redis", "Cloudinary", "React"],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/mern-v-social-media",
                 "fas fa-external-link": "#"
@@ -108,13 +108,13 @@ export default function Work() {
                             "fab fa-github": "https://github.com/vinhngo1907/mern-v-chat-app",
                             "fas fa-external-link": "https://mern-v-chat-app.netlify.app/"
                         }}
-                        tags={["React", "NodeJS", "Mongo", "Cloudinary", "Socket", "Redis"]}
+                        tags={["NodeJS", "Mongo", "Cloudinary", "Socket", "Redis", "React"]}
                     />
                     <Project
                         title={"Course Manager"}
                         description={"V-Course system which allows you manage your courses"}
                         links={{ "fab fa-github": "https://github.com/vinhngo1907/v-course-manager" }}
-                        tags={["Next", "Nest", "Postgres", "MinIO", "Prisma", "Postgres"]}
+                        tags={["Nest", "Postgres", "MinIO", "Prisma", "Postgres", "Next"]}
                     />
                     <Project
                         title={"V Cursor Application"}
