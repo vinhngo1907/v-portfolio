@@ -130,15 +130,15 @@ export default function Work() {
                         links={{ "fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app" }}
                         tags={["Vue", "NodeJS", "Sequelize", "MySQL"]}
                     />
-                    <Project
+                    {/* <Project
                         title={" Hoang Long OHayO"}
                         description={" A Booking system for hotel, coffee, restaurant, and conference."}
                         links={{
                             "fab fa-github": "#",
-                            "fas fa-external-link": "https://hoanglonghotel.com/"
+                            "fas fa-external-link": "https://ohayodalat.com"
                         }}
                         tags={["Strapi", "Postgres", "Prisma", "FullterFlow", "Next"]}
-                    />
+                    /> */}
                 </div>
             </div>
         </>
