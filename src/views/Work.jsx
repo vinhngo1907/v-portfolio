@@ -15,24 +15,24 @@ export default function Work() {
         {
             name: "V Network - Social Media",
             description: "An interactive social media platform with real-time messaging, voice/video calls, post creation, reactions, user search, notifications, group chats, stories, nearby people, and boosted ads. Supports basic login and OAuth2.",
-            tags: ["NodeJS", "Google", "Facebook", "Twilio", "Mongo", "Socket.io", "Redis", "Cloudinary", "React"],
+            tags: ["Node.js", "Google", "Facebook", "Twilio", "MongoDB", "Socket.IO", "Redis", "Cloudinary", "React"],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/mern-v-social-media",
-                "fas fa-external-link": "#"
+                "fas fa-external-link": "https://v-social-media.netlify.app"
             },
             image: VNetwork
         },
         {
             name: "FM - CMS",
             description: "This website enables remote control of local speakers. It also provides customers with user access management and allows them to easily monitor and manage connected devices in real time across different areas.",
-            tags: ["Nest", "Mongo", "Socket.io", "PosgreSQL", "Next", "Prisma", "Strapi", "Grafana"],
+            tags: ["NestJS", "MongoDB", "Socket.io", "PosgreSQL", "Next.js", "Prisma", "Strapi", "Grafana"],
             links: { "fab fa-github": "#", "fas fa-external-link": "https://dev-fe.hoangthelongtto.vn/" },
             image: FmCMS
         },
         {
             name: "V Music – Listen & Chill",
             description: "A web application for seamless music streaming and management. Users can browse, play, and organize tracks, manage playlists, and react with likes or dislikes.",
-            tags: ["NodeJS", "Express", "YouTube Data API", "Mongo"],
+            tags: ["Node.js", "Express.js", "YouTube Data API", "Auth0 ", "MongoDB"],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/v-music-stream",
                 "fas fa-external-link": "https://v-music-stream.onrender.com"
@@ -42,7 +42,7 @@ export default function Work() {
         {
             name: "Hasu Farm",
             description: "HASU Farm is a smart agriculture platform that monitors and manages IoT farm data such as temperature, humidity, and lighting in real time. The system collects sensor data, processes it through a scalable backend, and provides farmers with an intuitive dashboard for tracking and controlling their farm environment efficiently.",
-            tags: ["NodeJS", "Express", "Mongo", "MQTT", "React", "Arduino"],
+            tags: ["Node.js", "Express.js", "MongoDB", "MQTT", "React", "Arduino"],
             links: {
                 "fab fa-github": "#",
                 "fas fa-external-link": "http://hasufarm.com"
@@ -52,14 +52,14 @@ export default function Work() {
         {
             name: "XKA - ECommerce Website",
             description: "An e-commerce platform designed to help small and local sports equipment shops easily transition to online business.",
-            tags: ["Wordpress", "Next", "Cloudinary", "MySQL", "Docker", "Traefik"],
+            tags: ["Wordpress", "Next.js", "Cloudinary", "MySQL", "Docker", "Traefik"],
             links: { "fab fa-github": "#", "fas fa-external-link": "https://xka.vn/" },
             image: XKA
         },
         {
             name: "Nguyen Vu Store",
             description: "Nguyen Vu Store's e-commerce website for online sales provides all the basic functions of an e-commerce website, including online payment.",
-            tags: ["Wordpress", "Next", "Cloudinary", "MySQL", "Docker", "Traefik"],
+            tags: ["Wordpress", "Next.js", "Cloudinary", "MySQL", "Docker", "Traefik"],
             links: { "fab fa-github": "#", "fas fa-external-link": "https://nguyenvu.store" },
             image: NguyenVuStore
         }
@@ -99,7 +99,7 @@ export default function Work() {
                             "fab fa-github": "#",
                             "fas fa-external-link": "https://v-note-app.netlify.app"
                         }}
-                        tags={["Apollo GraphQL", "NodeJS", "Mongo", "React", "Firebase"]}
+                        tags={["Apollo GraphQL", "Node.js", "MongoDB", "React", "Firebase"]}
                     />
                     <Project
                         title={"Chat Application"}
@@ -108,19 +108,19 @@ export default function Work() {
                             "fab fa-github": "https://github.com/vinhngo1907/mern-v-chat-app",
                             "fas fa-external-link": "https://mern-v-chat-app.netlify.app/"
                         }}
-                        tags={["NodeJS", "Mongo", "Cloudinary", "Socket", "Redis", "React"]}
+                        tags={["Node.js", "MongoDB", "Cloudinary", "Socket.IO", "Redis", "React"]}
                     />
                     <Project
                         title={"Course Manager"}
                         description={"V-Course system which allows you manage your courses"}
                         links={{ "fab fa-github": "https://github.com/vinhngo1907/v-course-manager" }}
-                        tags={["Nest", "Postgres", "MinIO", "Prisma", "Postgres", "Next"]}
+                        tags={["NestJS", "PostgreSQL", "Prisma", "MinIO", "React", "Next.js"]}
                     />
                     <Project
                         title={"V Cursor Application"}
                         description={"A small chat system based on a microservices architecture"}
                         links={{ "fab fa-github": "https://github.com/vinhngo1907/v-cursor" }}
-                        tags={["Vue", "Nest", "Mongo", "Kafka", "Python"]}
+                        tags={["Vue.js", "NestJS", "MongoDB", "Kafka", "Python"]}
                     />
                     <Project
                         title={"InShare Application"}
@@ -128,7 +128,7 @@ export default function Work() {
                             "An app for uploading and sharing files via unique download links."
                         }
                         links={{ "fab fa-github": "https://github.com/vinhngo1907/sevn-inshare-app" }}
-                        tags={["Vue", "NodeJS", "Sequelize", "MySQL"]}
+                        tags={["Vue.js", "Node.js", "Sequelize", "MySQL"]}
                     />
                     {/* <Project
                         title={" Hoang Long OHayO"}
