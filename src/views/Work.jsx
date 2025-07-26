@@ -14,8 +14,19 @@ export default function Work() {
     const [projects] = useState([
         {
             name: "V Network - Social Media",
-            description: "An interactive social media platform with real-time messaging, voice/video calls, post creation, reactions, user search, notifications, group chats, stories, nearby people, and boosted ads. Supports basic login and OAuth2.",
-            tags: ["Node.js", "Google", "Facebook", "Twilio", "MongoDB", "Socket.IO", "Redis", "Cloudinary", "React"],
+            description:
+                "Freelance Project - An interactive social media platform with real-time messaging, voice/video calls, posts, reactions, notifications, group chats, stories, and OAuth2 login.",
+            tags: [
+                "Node.js",
+                "Google",
+                "Facebook",
+                "Twilio",
+                "MongoDB",
+                "Socket.IO",
+                "Redis",
+                "Cloudinary",
+                "React"
+            ],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/mern-v-social-media",
                 "fas fa-external-link": "https://v-social-media.netlify.app"
@@ -24,15 +35,35 @@ export default function Work() {
         },
         {
             name: "FM - CMS",
-            description: "This website enables remote control of local speakers. It also provides customers with user access management and allows them to easily monitor and manage connected devices in real time across different areas.",
-            tags: ["NestJS", "MongoDB", "Socket.io", "PosgreSQL", "Next.js", "Prisma", "Strapi", "Grafana"],
-            links: { "fab fa-github": "#", "fas fa-external-link": "https://dev-fe.hoangthelongtto.vn/" },
+            description:
+                "Company Project – Backend Developer. Enables remote control of local speakers, user access management, and real-time device monitoring across locations.",
+            tags: [
+                "NestJS",
+                "MongoDB",
+                "Socket.io",
+                "PostgreSQL",
+                "Next.js",
+                "Prisma",
+                "Strapi",
+                "Grafana"
+            ],
+            links: {
+                "fab fa-github": "#",
+                "fas fa-external-link": "https://dev-fe.hoangthelongtto.vn/"
+            },
             image: FmCMS
         },
         {
             name: "V Music – Listen & Chill",
-            description: "A web application for seamless music streaming and management. Users can browse, play, and organize tracks, manage playlists, and react with likes or dislikes.",
-            tags: ["Node.js", "Express.js", "YouTube Data API", "Auth0 ", "MongoDB"],
+            description:
+                "Freelance Project - A music streaming platform where users can browse, play, and manage tracks, playlists, and likes.",
+            tags: [
+                "Node.js",
+                "Express.js",
+                "YouTube Data API",
+                "Auth0",
+                "MongoDB"
+            ],
             links: {
                 "fab fa-github": "https://github.com/vinhngo1907/v-music-stream",
                 "fas fa-external-link": "https://v-music-stream.onrender.com"
@@ -41,7 +72,8 @@ export default function Work() {
         },
         {
             name: "Hasu Farm",
-            description: "HASU Farm is a smart agriculture platform that monitors and manages IoT farm data such as temperature, humidity, and lighting in real time. The system collects sensor data, processes it through a scalable backend, and provides farmers with an intuitive dashboard for tracking and controlling their farm environment efficiently.",
+            description:
+                "Company Project – Backend Developer. A smart agriculture platform that monitors real-time farm data like temperature, humidity, and lighting, powered by scalable backend and MQTT.",
             tags: ["Node.js", "Express.js", "MongoDB", "MQTT", "React", "Arduino"],
             links: {
                 "fab fa-github": "#",
@@ -51,19 +83,27 @@ export default function Work() {
         },
         {
             name: "XKA - ECommerce Website",
-            description: "An e-commerce platform designed to help small and local sports equipment shops easily transition to online business.",
+            description:
+                "Company Project – Backend Developer. E-commerce platform for local sports shops to sell online effectively.",
             tags: ["Wordpress", "Next.js", "Cloudinary", "MySQL", "Docker", "Traefik"],
-            links: { "fab fa-github": "#", "fas fa-external-link": "https://xka.vn/" },
+            links: {
+                "fab fa-github": "#",
+                "fas fa-external-link": "https://xka.vn/"
+            },
             image: XKA
         },
         {
             name: "Nguyen Vu Store",
-            description: "Nguyen Vu Store's e-commerce website for online sales provides all the basic functions of an e-commerce website, including online payment.",
+            description:
+                "Company Project – Backend Developer. E-commerce website offering essential online shopping and payment features.",
             tags: ["Wordpress", "Next.js", "Cloudinary", "MySQL", "Docker", "Traefik"],
-            links: { "fab fa-github": "#", "fas fa-external-link": "https://nguyenvu.store" },
+            links: {
+                "fab fa-github": "#",
+                "fas fa-external-link": "https://nguyenvu.store"
+            },
             image: NguyenVuStore
         }
-    ])
+    ]);
 
     return (
         <>
