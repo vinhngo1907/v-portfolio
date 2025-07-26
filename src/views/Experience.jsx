@@ -36,7 +36,7 @@ export default function Experience() {
                 "Integrated MQTT protocol for real-time communication between IoT devices and the backend system, collecting and controlling data related to temperature, humidity, and lighting.",
                 "Collaborated with the frontend team to implement key features such as authentication, search, filtering, and pagination, enhancing the usability of the dashboard.",
                 "Designed and managed data storage using MongoDB for efficient retrieval and scalability.",
-                "Use: NodeJS, Express, MongoDB, MQTT, React, GitLab."
+                "Use: NodeJS, Express, MongoDB, MQTT, React, Redmine, GitLab."
             ]
         },
         "Maysoft Technology Solutions": {
@@ -97,7 +97,7 @@ export default function Experience() {
                     </span>
                 </div>
                 <p className={"dark-slate w-full mb-2 leading-7"}>
-                    I am a Backend Developer with over 4 years of experience in Nodejs, have knowledge in Web Development, Object-Oriented, and Networking.
+                    I am a Backend Developer with over 4 years of experience in Node.JS, have knowledge in Web Development, Object-Oriented, and Networking.
                     Constantly learning to improve programming knowledge to develop professional skills and have a passion for learning new languages, and technologies.
                 </p>
                 <p className={"dark-slate w-full mb-4 leading-7"}>
