@@ -3,15 +3,32 @@ import { useState } from "react";
 export default function Experience() {
 
     const [work] = useState({
+        "Murror AI Inc": {
+            url: " https://www.murror.app/",
+            position: "Software Engineer",
+            duration: "(Jul 2025 – Dec 2025)",
+            content: [
+                "Collaborated with Product, UI/UX, AI (Python), Frontend, and Business teams to align requirements and deliver backend features.",
+                "Built real-time socket servers for mobile data exchange.",
+                "Developed a custom serverless API gateway using Supabase Edge Functions (Deno runtime), Auth, and Storage.",
+                "Engineered and optimized APIs across NestJS and Supabase Edge Functions (Deno runtime) for Frontend, and internal AI services.",
+                "Delivered personalized user data to AI pipelines via RabbitMQ (RAG-lite)",
+                "Implemented background scheduling with BullMQ (Redis) and notifications via OneSignal.",
+                "Set up monitoring and alerting using Grafana and Prometheus.",
+                "Supported GitHub Actions CI/CD pipelines with Kubernetes deployment and kubectl-based namespace monitoring.",
+                "Use: TypeScript, NestJS, Deno, Python, Supabase, PostgreSQL, Redis, RabbitMQ, GitHub, Jira, Figma, Docker, LLMs, Prisma, Grafana, Kubernetes(K8S), OneSignal."
+            ]
+        },
         "LizAI Technology Corporation": {
             url: "https://www.lizai.co/",
             position: "Software Engineer",
             duration: "Aug 2023 - May 2025",
             content: [
-                `Built a scalable distributed crawler system using microservices, RabbitMQ for communication, and AWS Lambda for event-driven processing. Stored data in MySQL and indexed with Elasticsearch. Deployed services with Docker and Docker Compose.`,
-                `Extracted and preprocessed data from Excel, CSV, and images (OCR) to support training of machine learning models for language translation (Vietnamese to English).`,
-                `Developed a real-time data synchronization module for MySQL, PostgreSQL, MongoDB, and MSSQL using Kafka and Debezium for Change Data Capture (CDC).`,
-                `Use: NodeJS, .NET, Python, RabbitMQ, Kafka, Debezium, MySQL, PostgreSQL, MongoDB, MSSQL, Elasticsearch, Docker, AWS, MinIO, Jira, Bitbucket.`
+                "Received requirements from the Site Head and executed tasks assigned by respective team leads (NodeJS, Python and .Net). ",
+                "Built a scalable distributed crawler system using microservices, RabbitMQ for communication, and AWS Lambda for event-driven processing. Stored data in MySQL and indexed with Elasticsearch. Deployed services with Docker and Docker Compose.",
+                "Extracted and preprocessed data from Excel, CSV, and images (OCR) to support training of machine learning models for language translation (Vietnamese to English).",
+                "Developed a real-time data synchronization module for MySQL, PostgreSQL, MongoDB, and MSSQL using Kafka and Debezium for Change Data Capture (CDC).",
+                "Use: NodeJS, .NET, Python, RabbitMQ, Kafka, Debezium, MySQL, PostgreSQL, MongoDB, MSSQL, Elasticsearch, Docker, AWS, MinIO, Jira, Bitbucket."
             ]
         },
         "TekNix Technology Corporation": {
