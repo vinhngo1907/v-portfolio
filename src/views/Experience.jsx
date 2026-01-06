@@ -114,7 +114,7 @@ export default function Experience() {
                     </span>
                 </div>
                 <p className={"dark-slate w-full mb-2 leading-7"}>
-                    I am a Backend Developer with over 4 years of experience in Node.JS, have knowledge in Web Development, Object-Oriented, and Networking.
+                    I am a Software Engineer with over 5 years of experience in Node.JS, have knowledge in Web Development, Object-Oriented, and Networking.
                     Constantly learning to improve programming knowledge to develop professional skills and have a passion for learning new languages, and technologies.
                 </p>
                 <p className={"dark-slate w-full mb-4 leading-7"}>

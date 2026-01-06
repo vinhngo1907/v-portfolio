@@ -4,6 +4,7 @@ import MusicStream from "../images/projects/MusicStream.png"
 import HasuFarm from "../images/projects/HasuFarm.png"
 import FmCMS from "../images/projects/FMCMS.png"
 import XKA from "../images/projects/XKA.png";
+import MurrorImage from "../images/projects/MurrorImage.png";
 import NguyenVuStore from "../images/projects/NguyenVu.png";
 import FeaturedProject from "../components/FeaturedProjects";
 import Project from "../components/Projects";
@@ -69,6 +70,17 @@ export default function Work() {
                 "fas fa-external-link": "https://v-music-stream.onrender.com"
             },
             image: MusicStream
+        },
+        {
+            name: "Murror App",
+            description:
+                "Company Project – Software Engineer at Murror AI Inc. A mobile–AI platform providing personalized content and real-time user data exchange through NestJS backend and Supabase Edge Functions running on Deno runtime.",
+            tags: ["TypeScript", "NestJS", "Supabase", "Deno", "PostgreSQL", "Redis", "RabbitMQ", "Grafana", "Kubernetes"],
+            links: {
+                "fab fa-github": "#",
+                "fas fa-external-link": "https://apps.apple.com/vn/app/murror-ai/id6741769381",
+            },
+            image: MurrorImage
         },
         {
             name: "Hasu Farm",
