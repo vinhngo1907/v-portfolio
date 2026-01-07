@@ -74,7 +74,7 @@ export default function Work() {
         {
             name: "Murror App",
             description:
-                "Company Project – Software Engineer at Murror AI Inc. A mobile–AI platform providing personalized content and real-time user data exchange through NestJS backend and Supabase Edge Functions running on Deno runtime.",
+                "Company Project – Software Engineer at Murror AI Inc. A mental health mobile platform that builds deep AI conversations to help users explore emotions and personal stories, then transforms those interactions into meaningful psychological insights and self-understanding, supporting ongoing wellbeing after authentic human–AI connection.",
             tags: ["TypeScript", "NestJS", "Supabase", "Deno", "PostgreSQL", "Redis", "RabbitMQ", "Grafana", "Kubernetes"],
             links: {
                 "fab fa-github": "#",
