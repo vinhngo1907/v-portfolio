@@ -75,7 +75,7 @@ export default function Work() {
             name: "Murror App",
             description:
                 "Company Project – A mental health mobile platform that builds deep AI conversations to help users explore emotions and personal stories, then transforms those interactions into meaningful psychological insights and self-understanding, supporting ongoing wellbeing after authentic human–AI connection.",
-            tags: ["TypeScript", "NestJS", "Supabase", "Deno", "PostgreSQL", "Redis", "RabbitMQ", "Grafana", "Kubernetes"],
+            tags: ["TypeScript", "NestJS", "Supabase", "Deno", "PostgreSQL", "Socket.IO", "Redis", "RabbitMQ", "OneSignal", "React Native", "Grafana", "Kubernetes"],
             links: {
                 "fab fa-github": "#",
                 "fas fa-external-link": "https://apps.apple.com/vn/app/murror-ai/id6741769381",
